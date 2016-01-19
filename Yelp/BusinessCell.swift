@@ -16,7 +16,7 @@ class BusinessCell: UITableViewCell {
     @IBOutlet weak var starsImageView: UIImageView!
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var businessNameLabel: UILabel!
-    @IBOutlet weak var thumbImageView: UIImageView!
+    @IBOutlet weak var thumbImageView: UIImageView! 
     
     var business: Business! {
             // observer
