@@ -16,8 +16,8 @@
 		22AAAA991AEA0A9700A544AF /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AAAA981AEA0A9700A544AF /* Business.swift */; };
 		22AAAA9C1AEA1EC300A544AF /* BusinessesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AAAA9B1AEA1EC300A544AF /* BusinessesViewController.swift */; };
 		90B718C590BD546DEFEF0D61 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3C5CF4FD317D72ABE2AAC4 /* Pods.framework */; };
-		D07349BA1C4DB7DB00F30CE9 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = D07349B91C4DB7DB00F30CE9 /* README.txt */; };
 		D07349BD1C4DC03100F30CE9 /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07349BC1C4DC03100F30CE9 /* BusinessCell.swift */; };
+		D07349BF1C4DD87F00F30CE9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D07349BE1C4DD87F00F30CE9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,8 @@
 		97D8B2E3FFD1AF4F4A707E47 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AA3C5CF4FD317D72ABE2AAC4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD540129B10DFE60E8C24E2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		D07349B91C4DB7DB00F30CE9 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		D07349BC1C4DC03100F30CE9 /* BusinessCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
+		D07349BE1C4DD87F00F30CE9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 		222D8A4C19CCF9F900D2DB53 = {
 			isa = PBXGroup;
 			children = (
-				D07349B91C4DB7DB00F30CE9 /* README.txt */,
+				D07349BE1C4DD87F00F30CE9 /* README.md */,
 				222D8A5719CCF9F900D2DB53 /* Yelp */,
 				222D8A6D19CCF9F900D2DB53 /* YelpTests */,
 				222D8A5619CCF9F900D2DB53 /* Products */,
@@ -267,7 +267,6 @@
 			files = (
 				222D8A6019CCF9F900D2DB53 /* Main.storyboard in Resources */,
 				222D8A6519CCF9F900D2DB53 /* LaunchScreen.xib in Resources */,
-				D07349BA1C4DB7DB00F30CE9 /* README.txt in Resources */,
 				222D8A6219CCF9F900D2DB53 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D07349BF1C4DD87F00F30CE9 /* README.md in Sources */,
 				D07349BD1C4DC03100F30CE9 /* BusinessCell.swift in Sources */,
 				22AAAA9C1AEA1EC300A544AF /* BusinessesViewController.swift in Sources */,
 				22AAAA991AEA0A9700A544AF /* Business.swift in Sources */,
