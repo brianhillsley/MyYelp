@@ -34,6 +34,17 @@ class BusinessCell: UITableViewCell {
     override func awakeFromNib(){
         super.awakeFromNib()
         // Initialization code
+        thumbImageView.layer.cornerRadius = 3
+        thumbImageView.clipsToBounds = true
+        businessNameLabel.preferredMaxLayoutWidth = businessNameLabel.frame.size.width
+        
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        // When changes from vertical to horizontal screen orientation
+        // Make sure to update the preferred max layout width
+        businessNameLabel.preferredMaxLayoutWidth = businessNameLabel.frame.size.width
     }
     
     override func setSelected(selected: Bool, animated: Bool) {
